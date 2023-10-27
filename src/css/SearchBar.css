@@ -1,0 +1,28 @@
+.search-input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .search-input-container input {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-right: 10px;
+  }
+  
+  .search-input-container button {
+    background-color: #0074d9;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 10px;
+    cursor: pointer;
+  }
+  
+  /* Add more CSS styles as needed */
+  

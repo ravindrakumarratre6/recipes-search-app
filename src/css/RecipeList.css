@@ -1,0 +1,51 @@
+/* RecipeList.css */
+.recipe-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.recipe-item {
+  width: 100%; /* Default to full width for small screens */
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.recipe-title {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+.recipe-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.recipe-details {
+  list-style: none;
+  padding: 0;
+}
+
+.recipe-details li {
+  margin: 5px 0;
+}
+
+.recipe-details a {
+  color: blue;
+  text-decoration: underline;
+}
+
+/* Responsive adjustments */
+@media (min-width: 768px) {
+  .recipe-item {
+    width: 45%; /* Adjust for medium-sized screens */
+  }
+}
+
+@media (min-width: 1200px) {
+  .recipe-item {
+    width: 30%; /* Adjust for large screens */
+  }
+}
